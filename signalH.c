@@ -5,10 +5,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-/*
- To compile: gcc -Wall lab9.c
- To run: ./a.out ./hw1 1000
- */
+
 
 pid_t pid;
 
