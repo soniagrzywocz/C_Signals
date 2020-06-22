@@ -1,2 +1,2 @@
-# C_ProcessCreation
-#C_Signals
+**PROJECT DESCRIPTION**:
+This program focuses on signals handling. When SIGINT is received (Control+ C), it only affects the child process - child process exits. The parent process is ignoring the signal. When SIGTSTP is received (Contol+Z), only the child process is suspended; the parent process ignores the signal and is still running. When the SIGQUIT is received (Control+\), both processes are affected and terminated. 
